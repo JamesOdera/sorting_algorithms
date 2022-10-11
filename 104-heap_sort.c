@@ -58,7 +58,7 @@ void siftdown(int *array, size_t start, size_t end, size_t size)
 
 void heapify(int *array, size_t size)
 {
-	size_t start;
+	ssize_t start;
 
 	start = parent(size - 1);
 	while (start >= 0)
